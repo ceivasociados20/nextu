@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Proyecto Next_U</title>
+	<link rel="stylesheet" href="css/mis_estilos.css">
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<div class="icono">
+				<img id="logo" src="icon/icon.svg" alt="200">
+			</div>	
+
+			<div class="titulo">
+				<h1>Mi Resúmen de Vida</h1>
+				<div class="datos_pers">
+					<h2 id="datos">Datos Personales</h2>
+					<h3>Cristian Eduardo Ipanaque Vargas</h3>
+					<h3>Sullana - Perú</h3>
+					<h3>03 de Agosto de 1992</h3>
+				</div>
+			</div>	
+			<nav>	
+				<h4>Enlaces de Menú</h4>
+				<a href="index.html"><div class="boton">Inicio</div></a>
+				<a href="educacion.html"><div class="boton">Educacion</div></a>
+				<a href="experiencia.html"><div class="boton">Experiencia</div></a>
+			</nav>	
+		</header>
+		
+
+		<section>
+			<div class="info">
+				<h2>Educación</h2>
+			</div>
+
+			<div class="tabla">
+				<table border="1">
+					<tr>
+						<th>Año</th>
+						<th>Institución</th>
+						<th>Lugar</th>
+						<th>¿Culminó?</th>
+					</tr>
+					<tr>
+						<td>2010</td>
+						<td>ULADECH</td>
+						<td>Piura - Perú</td>
+						<td>2016</td>
+					</tr>
+					<tr>
+						<td>2014</td>
+						<td>ICPNA</td>
+						<td>Piura - Perú</td>
+						<td>2018</td>
+					</tr>
+				</table>
+			</div>
+			<label id="agregar">Agregar Estudios</label>
+			<form action="agregar.php">
+				<label for="anho">Año</label>
+				<select>
+					<option>2010</option>
+					<option value="2011">2011</option>
+					<option value="2012">2012</option>
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>
+					<option value="2016">2016</option>
+					<option value="2017">2017</option>
+					<option value="2018">2018</option>
+					<option value="2019">2019</option>
+				</select>
+				<label for="institucion">Institucion</label>
+				<input type="text" name="institucion" id="institucion" required>
+				<label for="lugar">Lugar</label>
+				<input type="text" name="lugar" id="lugar" required>
+				<input type="submit" value="enviar">
+			</form>
+			
+		</section>
+		<footer>
+			<span class=""></span><label class="contac">Informacion de contacto</label>
+			<span class=""></span><label class="contac">Calle Ciro Alegría #404 - Sullana, Perú</label>
+			<span class=""></span><label class="inf">cristian030892@gmail.com</label>
+			<span class=""></span><label class="inf">920833634</label>
+			<span class=""></span><a href="https://twitter.com/?lang=es"><label class="contac">@cristianipanaque</label></a>
+			<span class=""></span><a href="https://www.facebook.com/cristianeduardo.ipanaquevargas"><label class="contac">Cristian Ipanaque</label></a>
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+*{
+	padding: 0px
+	margin:0px;
+}
+
+header{
+	font-family: "calibri";
+	margin: 0px auto;
+	width: 80%;
+	height: auto;
+	display: table;
+	border-bottom: 1px solid #ccc;
+}
+
+#logo{
+	width: 350px;
+	float: left;
+	margin-left: 10px;
+}
+.titulo{
+	
+	color: #5C5A5F;
+	float: left;
+	margin-left: 10px;
+}
+
+
+h2,h3{
+	margin:5px 0px;
+}
+
+#datos{
+	text-align: center;
+	color: #299E9D;
+}
+
+h3, h4{
+	text-align: center;
+	color:#EF4F5E;
+}
+
+nav{
+	margin-top: 50px;
+	float: right;
+	width: 500px;
+}
+
+.boton{
+	border: 1px solid #ccc;
+	margin-left: 10px;
+	background-color: #ffff;
+	width: 120px;
+	height: 20px;
+	border-radius: 5px;
+	padding: 15px;
+	font-family: calibri;
+	display: inline-table;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #3158EA;
+}
+.boton:hover{
+	background-color: #D7D7D7;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+section, footer{
+	padding: 5px 20px;
+	border: 1px solid #ccc;
+	width: 77%;
+	margin: 10px auto;
+	font-family: "Calibri",Century, Arial;
+}
+
+footer{
+	text-align: center;
+}
+
+.info{
+	width: 100%;
+	text-align: center;
+	color: #3C3D4D;
+	float: left;
+	display: block;	
+}
+
+#profile_ph{
+	margin: auto 10px;
+	width: 100px;
+}
+#cont_ph{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.titulos{
+	font-weight: bolder;
+	display: block;
+}
+.descripcion{
+	padding: 5px;
+	width: 23%;
+	text-align: justify;
+	display: inline-table;
+}
+.col_1,.col_2,.col_3{
+	margin-right: 15px;
+}
+
+table{
+	margin: 10px auto;
+	border: 1px solid #ccc;
+	padding: 10px;
+	width: 70%;
+}
+th,td{
+	width: 200px;
+}
+.tabla{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+#agregar{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+select, input{
+	display: block;
+	width: 400px;
+}
